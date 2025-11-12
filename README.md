@@ -1,4 +1,5 @@
-# Building a DevOps CI/CD Pipeline Locally: GitHub, Jenkins, Maven, SonarQube, Docker, DockerHub, ArgoCD, Helm, Kubernetes, Prometheus, Grafana, Filebeat, OpenSearch, and Kibana
+# Building a DevOps CI/CD Pipeline Locally
+ GitHub, Jenkins, Maven, SonarQube, Docker, DockerHub, ArgoCD, Helm, Kubernetes, Prometheus, Grafana, Filebeat, OpenSearch, and Kibana
 
 
 ![Flow Diagram](https://github.com/deepakkr35/devops-demo-project/blob/main/devops-demo-project.gif)
