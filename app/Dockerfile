@@ -1,5 +1,5 @@
 # Base image (LTS OpenJDK 21, slim variant)
-FROM eclipse-temurin:21-jdk-slim
+FROM eclipse-temurin:21-jdk
 
 # Set artifact path (from Maven/Gradle target)
 ARG artifact=target/app.jar
