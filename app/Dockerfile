@@ -1,12 +1,14 @@
-# Base image 
-FROM openjdk:21-jdk-slim-bullseye
+# Base image (LTS OpenJDK 21, slim variant)
+FROM eclipse-temurin:21-jdk-slim
 
-# setting artifact path
+# Set artifact path (from Maven/Gradle target)
 ARG artifact=target/app.jar
 
+# Working directory inside container
 WORKDIR /opt/app
 
+# Copy built JAR file into image
 COPY ${artifact} app.jar
 
-# Entrypoint for running app
-ENTRYPOINT ["java","-jar","app.jar"]
+# Default entrypoint to run the app
+ENTRYPOINT ["java", "-jar", "app.jar"]
