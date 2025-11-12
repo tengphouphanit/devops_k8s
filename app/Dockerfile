@@ -2,7 +2,7 @@
 FROM openjdk
 
 # setting artifact path
-ARG artifact=target/demo-java-app.jar
+ARG artifact=target/app.jar
 
 WORKDIR /opt/app
 

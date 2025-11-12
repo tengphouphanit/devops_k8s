@@ -1,4 +1,4 @@
-package com.deepak.demo;
+package com.funcode.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
 @Controller
-public class DemoApplication {
+public class App {
 
-    private static final Logger logger = LoggerFactory.getLogger(DemoApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(App.class);
     @GetMapping("/")
     public String index(final Model model) {
 
@@ -36,7 +36,7 @@ public class DemoApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
 }
