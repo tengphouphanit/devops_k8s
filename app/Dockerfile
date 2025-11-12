@@ -1,5 +1,5 @@
 # Base image 
-FROM openjdk
+FROM openjdk:21-jdk-slim-bullseye
 
 # setting artifact path
 ARG artifact=target/app.jar
