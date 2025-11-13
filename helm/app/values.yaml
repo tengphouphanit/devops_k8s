@@ -7,7 +7,7 @@ image:
   # Since you’re using Docker Desktop and a local image,
   # make sure you've built it locally as: docker build -t app:V1.1 .
   repository: app
-  tag: V1.1
+  tag: V2.0
   imagePullPolicy: IfNotPresent
 
 appName: demo-app
