@@ -5,8 +5,7 @@
 replicaCount: 2
 
 image:
-  githubID: tengphouphanit
-  repository: devops_k8s
+  repository: app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: V1.1
