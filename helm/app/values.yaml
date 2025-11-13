@@ -6,11 +6,11 @@ replicaCount: 2
 image:
   # Since you’re using Docker Desktop and a local image,
   # make sure you've built it locally as: docker build -t app:V1.1 .
-  repository: app
+  repository: localhost:5000/app
   tag: V1.1
-  pullPolicy: Never
+  pullPolicy: Always
 
-appName: demo-app
+  appName: demo-app
 namespace: app
 
 # External service configurations (optional)
