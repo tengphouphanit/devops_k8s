@@ -8,9 +8,9 @@ image:
   # make sure you've built it locally as: docker build -t app:V1.1 .
   repository: app
   tag: V1.1
-  pullPolicy: IfNotPresent
+  pullPolicy: Never
 
-appName: dem-app
+appName: demo-app
 namespace: app
 
 # External service configurations (optional)
