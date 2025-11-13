@@ -8,7 +8,7 @@ image:
   # make sure you've built it locally as: docker build -t app:V1.1 .
   repository: app
   tag: V1.1
-  imagePullPolicy: Never
+  imagePullPolicy: IfNotPresent
 
 appName: demo-app
 namespace: app
