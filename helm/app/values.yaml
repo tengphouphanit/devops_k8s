@@ -5,13 +5,13 @@
 replicaCount: 2
 
 image:
-  githubID: deepakkr35
-  repository: demo-java-app
+  githubID: tengphouphanit
+  repository: devops_k8s
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: V1.1
 
-appName: demo-java-app
+appName: dem-app
 
 namespace: app
 
